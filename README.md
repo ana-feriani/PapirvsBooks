@@ -1,4 +1,3 @@
-
 # PapirvsBooks
 
 [pt-br] Projeto HTML e CSS, elaborado como prática de aprendizado sobre responsividade com mobile-first.
@@ -22,6 +21,8 @@ Language: native Brazilian portuguese.
 
 
 ## 🔗 Links
+[Vercel](papirvs-books-o5mbkyhgf-ana-feriani.vercel.app)
+
 [LinkedIn](https://www.linkedin.com/in/anapferiani/)
 
 
@@ -46,5 +47,3 @@ I've spent the past few years working with holistic marketing. As I progressed i
 It has been an incredible challenge and I'm truly falling in love with the tech world. I'm learning a new language, new tools, everything new and it leaves me increasingly fascinated by what I'm doing.
 
 I hope to contribute more and more to this community and find my "place in the sun" soon.
-
-
