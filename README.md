@@ -21,7 +21,7 @@ Language: native Brazilian portuguese.
 
 
 ## 🔗 Links
-[Vercel](https://vercel.com/ana-feriani/papirvs-books/F2xAWUCLVNBQzQyXqz1CreEpD7dv)
+[Vercel](https://papirvs-books.vercel.app/)
 
 [LinkedIn](https://www.linkedin.com/in/anapferiani/)
 
