@@ -1,0 +1,291 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Papirvs | Livros</title>
+  <link rel="stylesheet" href="../css/style_reset.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
+  <link rel="stylesheet" href="../css/style.css">
+</head>
+
+<body>
+  <!-- Cabecalho -->
+  <header class="cabecalho">
+    <div class="container">
+      <input type="checkbox" id="menu" class="container__btn">
+      <label for="menu" class="container__rotulo">
+        <span class="cabecalho__menu-hamburguer container__imagem"></span>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__titulo">Categorias</li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Clássicos</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Filosofia</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Crônicas</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Culinária</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Poesia</a></li>
+      </ul>
+      <img src="../img/Logo_Papirvs_Amarelo.png" alt="Logo-Papirvs" class="container__imagem">
+      <h1 class="container__titulo"><b class="container__titulo-negrito">Papirvs</b> livros</h1>
+    </div>
+
+    <ul class="opcoes">
+      <input type="checkbox" id="opcoes-menu" class="opcoes__btn">
+      <label for="opcoes-menu" class="opcoes__rotulo">
+        <li class="opcoes__item">Categorias</li>
+      </label>
+      <ul class="lista-menu">
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Clássicos</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Filosofia</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Crônicas</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Culinária</a></li>
+        <li class="lista-menu__item"><a href="#" class="lista-menu__link">Poesia</a></li>
+      </ul>
+      <li class="opcoes__item"><a href="#" class="opcoes__link">Favoritos</a></li>
+      <li class="opcoes__item"><a href="#" class="opcoes__link">Minha Estante</a></li>
+    </ul>
+
+    <div class="container">
+      <a href="#">
+        <img src="../img/Favoritos.svg" class="container__imagem container__imagem-transparente">
+      </a>
+      <a href="#" class="container__link">
+        <img src="../img/Compras.svg" class="container__imagem">
+        <p class="container__texto">Minha sacola</p>
+      </a>
+      <a href="#" class="container__link">
+        <img src="../img/Usuário.svg" class="container__imagem">
+        <p class="container__texto">Meu perfil</p>
+      </a>
+    </div>
+  </header>
+
+  <!-- Banner -->
+  <section class="banner">
+    <h2 class="banner__titulo">Já sabe por onde começar?</h2>
+    <p class="banner__texto">Encontre em nossa estante o que precisa para seu desenvolvimento!</p>
+    <input type="search" class="banner__pesquisa" placeholder="Qual será sua próxima leitura?">
+  </section>
+
+  <!-- Carrossel -->
+  <section class="carrossel">
+    <h2 class="carrossel__titulo">mais procurados</h2>
+
+    <div class="carrossel__container">
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="../img/Inferno.svg" alt="A Divina Comédia - Inferno por Dante Alighieri"></div>
+          <div class="swiper-slide"><img src="../img/O Mercador de Veneza.svg" alt="O Mercador de Veneza por Willian Shakespeare"></div>
+          <div class="swiper-slide"><img src="../img/Dom Casmurro.svg" alt="Dom Casmurro por Machado de Assis"></div>
+          <div class="swiper-slide"><img src="../img/Dom Quixote.svg" alt="Dom Quixote de la Mancha por Miguel de Carvanter"></div>
+          <div class="swiper-slide"><img src="../img/A Arte da Guerra.svg" alt="A Arte da Guerra por Sun Tzu"></div>
+          <div class="swiper-slide"><img src="../img/Cinco-Minutos.svg" alt="Cinco Minutos por José de Alencar"></div>
+          <div class="swiper-slide"><img src="../img/Pesadelo.svg" alt="Pesadelo no Quarto 137 por Ana Feriani"></div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+      <div class="card">
+        <div class="card__descricao">
+          <div class="descricao">
+            <h3 class="descricao__titulo">Talvez você também se interesse por</h3>
+            <h2 class="descricao__titulo-autor">Jane Austen</h2>
+            <p class="descricao__titulo-texto">Considerada uma das maiores romancistas da literatura inglesas do séc. XIX.</p>
+          </div>
+          <img src="../img/Jane_Austen.svg" alt="Jane Austen" class="descricao__imagem">
+        </div>
+
+        <div class="card__btn">
+          <ul class="btn">
+            <li class="btn__item"><img src="../img/Favoritos.svg" alt="Favoritar Autor"></li>
+            <li class="btn__item"><img src="../img/Compras.svg" alt="Adicionar ao carrinho de compras"></li>
+          </ul>
+
+          <a href="#" class="btn__ancora">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+
+  </section class="mais-vendidos">
+
+  <section class="carrossel_mais-vendidos">
+    <h2 class="carrossel__titulo">mais vendidos</h2>
+
+    <div class="carrossel__container">
+      <div class="swiper">
+        <!-- Additional required wrapper -->
+
+        <!-- If we need pagination -->
+        <div class="swiper-pagination"></div>
+
+        <div class="swiper-wrapper">
+          <!-- Slides -->
+          <div class="swiper-slide"><img src="../img/Fio-Vermelho.svg" alt="Rompa o Maldito Fio Vermelho por Ana Feriani"></div>
+          <div class="swiper-slide"><img src="../img/Banquete.svg" alt="O Banquete por Platão"></div>
+          <div class="swiper-slide"><img src="../img/Receitas.svg" alt="História, Cultura e Gostosura por Rosemary Glatz"></div>
+          <div class="swiper-slide"><img src="../img/Bras-Cubas.svg" alt="Histórias Póstumas de Brás Cubas por Machado de Assis"></div>
+          <div class="swiper-slide"><img src="../img/3.svg" alt="Eu e Outras Histórias por Augusto dos Anjos"></div>
+          <div class="swiper-slide"><img src="../img/Pesadelo.svg" alt="Pesadelo no Quarto 137 por Ana Feriani"></div>
+          <div class="swiper-slide"><img src="../img/Inferno.svg" alt="A Divina Comédia - Inferno por Dante Alighieri"></div>
+        </div>
+
+        <!-- If we need navigation buttons -->
+        <div class="swiper-button-prev"></div>
+        <div class="swiper-button-next"></div>
+      </div>
+
+      <!-- Card autora -->
+      <div class="card">
+        <div class="card__descricao">
+          <div class="descricao">
+            <img src="../img/Estrelinhas.png" alt="5 estrelas">
+            <h3 class="descricao__titulo">Autora do mês</h3>
+            <h2 class="descricao__titulo-autor">Alice Toledo</h2>
+            <p class="descricao__titulo-texto">Psico-pedagoga com especialização em desenvolvimento de pessoas dentro do Especto Autista.</p>
+          </div>
+          <img src="../img/Perfil-Escritora.png" alt="Lúcia Pereira">
+        </div>
+
+        <div class="card__btn">
+          <ul class="btn">
+            <li class="btn__item"><img src="../img/Favoritos.svg" alt="Favoritar Autor"></li>
+            <li class="btn__item"><img src="../img/Compras.svg" alt="Adicionar ao carrinho de compras"></li>
+          </ul>
+
+          <a href="#" class="btn__ancora">Saiba mais</a>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Tópicos visitados -->
+  <section class="topicos">
+    <h2 class="topicos__titulo">tópicos visitados recentementes</h2>
+    <ul class="topicos__lista">
+      <li class="topicos__item"><a href="#">Clássicos</a></li>
+      <li class="topicos__item"><a href="#">Viagens e Turismo</a></li>
+      <li class="topicos__item"><a href="#">Terror</a></li>
+      <li class="topicos__item"><a href="#">Policial</a></li>
+      <li class="topicos__item"><a href="#">Autoajuda</a></li>
+      <li class="topicos__item"><a href="#">Religião</a></li>
+      <li class="topicos__item"><a href="#">Crônicas</a></li>
+      <li class="topicos__item"><a href="#">Receitas</a></li>
+    </ul>
+  </section>
+
+  <!-- Newsletter -->
+  <section class="contato">
+    <div class="contato__descricao">
+      <h2 class="contato__titulo">Fique por dentro das novidades</h2>
+      <p class="contato__texto">Receba atualizações de e-books, lançamentos, promoções e outros.</p>
+    </div>
+    <input type="email" placeholder="Cadastre seu e-mail" class="contato__email">
+  </section>
+
+  <hr />
+  <!-- Fotter  -->
+  <footer class="footer">
+    <h2 class="footer__titulo">Papirvs Livros</h2>
+    <ul class="lista-footer">
+      <li class="lista-footer__titulo">educação</li>
+      <li class="lista-footer__item">
+        <img src="../img/Penaz.png" alt="Logo Penaz">
+        <a href="#" class="lista-footer__link">Casa da Escrita</a>
+      </li>
+      <li class="lista-footer__item">
+        <img src="../img/CasaDoConto.png" alt="Logo Casa do Conto">
+        <a href="#" class="lista-footer__link">Casa do Conto</a>
+      </li>
+    </ul>
+
+    <ul class="lista-footer">
+      <li class="lista-footer__titulo">cursos online</li>
+      <li class="lista-footer__item">
+        <img src="../img/Papirvm.png" alt="Logo Papirum">
+        <a href="#" class="lista-footer__link">Papirvm</a>
+      </li>
+      <li class="lista-footer__item">
+        <img src="../img/PapirvsCompanies.png" alt="Logo Papirvm Companies">
+        <a href="#" class="lista-footer__link">Papirvm Companies</a>
+      </li>
+      <li class="lista-footer__item">
+        <img src="../img/PapirvsLatam.png" alt="Logo Papirvm Latam">
+        <a href="#" class="lista-footer__link">Papirvm LATAM</a>
+      </li>
+      <li class="lista-footer__item">
+        <img src="../img/PapirvsStart.png" alt="Logo Papirvm Start">
+        <a href="#" class="lista-footer__link">Papirvm Start</a>
+      </li>
+      <li class="lista-footer__item">
+        <img src="../img/Music.png" alt="Logo Music">
+        <a href="#" class="lista-footer__link">Music</a>
+      </li>
+      <li class="lista-footer__item">
+        <img src="../img/PapirvsLenguages.png" alt="Logo Papirvm Languages">
+        <a href="#" class="lista-footer__link">Papirvm Languages</a>
+      </li>
+      <li class="lista-footer__item">
+        <img src="../img/PM5.png" alt="Logo PM5">
+        <a href="#" class="lista-footer__link">PM5</a>
+      </li>
+    </ul>
+
+    <ul class="lista-footer">
+      <li class="lista-footer__titulo">Comunidades</li>
+      <li class="lista-footer__item">
+        <img src="../img/CaféComLeitura.png" alt="Logo Café com Leitura">
+        <a href="#" class="lista-footer__link">Café com Leitura</a>
+      </li>
+      <li class="lista-footer__item">
+        <img src="../img/Scub.png" alt="Logo Scub">
+        <a href="#" class="lista-footer__link">Scub Read</a>
+      </li>
+      <li class="lista-footer__item">
+        <img src="../img/Estante.png" alt="Logo Estante Interativa">
+        <a href="#" class="lista-footer__link">Estante Interativa</a>
+      </li>
+      <li class="lista-footer__item">
+        <img src="../img/LeitorAudiobooks.png" alt="Logo Leitor Audiobooks">
+        <a href="#" class="lista-footer__link">Leia+ Audiobooks</a>
+      </li>
+      <li class="lista-footer__item">
+        <img src="../img/LeitorJobs.png" alt="Leitor Jobs">
+        <a href="#" class="lista-footer__link">Leitor Jobs</a>
+      </li>
+      <li class="lista-footer__item">
+        <img src="../img/EscritaSemFronteira.png" alt="Logo Leitura Sem Fronteira">
+        <a href="#" class="lista-footer__link">Escrita sem Fronteira</a>
+      </li>
+      <li class="lista-footer__item">
+        <img src="../img/CasaDoConto.png" alt="Logo Casa do Conto">
+        <a href="#" class="lista-footer__link">Casa do Conto</a>
+      </li>
+    </ul>
+    <p class="footer__texto">Desenvolvido por Ana Paula Feriani</p>
+  </footer>
+
+  <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
+  <script>
+    const swiper = new Swiper('.swiper', {
+      spaceBetween: 10,
+      slidesPerView: 3,
+      pagination: {
+        el: '.swiper-pagination',
+        type: 'bullets',
+      },
+    });
+  </script>
+</body>
+
+</html>

@@ -1,0 +1,173 @@
+/* Fonts family */
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Oswald:wght@500&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap");
+
+/* Variáveis */
+:root {
+  --font-family: "Poppins", sans-serif;
+  --font-family-logo1: "Oswald", sans-serif;
+  --font-family-logo2: "Raleway", sans-serif;
+  --cor-preto-puro: #000000;
+  --cor-preto: #212529;
+  --cor-cinza-background: #ebecee;
+  --cor-cinza-medio: #adb5bd;
+  --cor-cinza-escuro: #858585;
+  --cor-cinza-escuro2: #474646;
+  --cor-branco: #f8f9fa;
+  --cor-branco-puro: #ffffff;
+  --cor-violeta-1-escuro: #522882;
+  --cor-violeta-2-medio: #5d2689;
+  --cor-violeta-3-claro: #722e9a;
+  --cor-amarelo-1-escuro: #f5bd1f;
+  --cor-amarelo-2-medio: #ffe150;
+  --cor-amarelo-3-claro: #ffe863;
+  --degrade-violeta: linear-gradient(97.54deg, #47297b 35.49%, #722e9a 165.37%);
+}
+
+/* Reset */
+body {
+  font-family: var(--font-family);
+  font-size: 1em;
+  font-weight: 400;
+  color: var(--cor-preto);
+  background-color: var(--cor-cinza-background);
+}
+
+ul li {
+  list-style: none;
+  font-family: var(--font-family);
+}
+
+a {
+  text-decoration: none;
+  font-family: var(--font-family);
+}
+
+/* CSS Tools: Reset CSS */
+
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+  font-family: var(--font-family);
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: " ";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
